@@ -52,11 +52,11 @@ module.exports.routes = {
             .upload(
                 { 
                     //maxBytes: 1024 * 1024 * 900,
-                    //maxTimeToBuffer: 1000
+                    maxTimeToBuffer: 1000
                 },
                  function (err, images) {
 
-                    if (err) return res.nagotiate();
+                    if (err) return res.serverError(err);
 
                     return res.json(images);
 
