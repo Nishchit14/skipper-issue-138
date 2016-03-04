@@ -1,4 +1,4 @@
-# skipper-issue-138
+# [skipper-issue-138](https://github.com/balderdashy/skipper/issues/138)
 
 ```
 npm install
